@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "customers",
+  "info": {
+    "name": "customer"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "address": {
+      "type": "string"
+    },
+    "number": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "opinion": {
+      "type": "text"
+    }
+  }
+}
