@@ -30,6 +30,9 @@
       "plugin": "upload",
       "required": false,
       "pluginOptions": {}
+    },
+    "article": {
+      "type": "richtext"
     }
   }
 }
